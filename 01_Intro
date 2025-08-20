@@ -1,1 +1,25 @@
+PROBLEMA: Calcular la suma de los numeros pares menores o iguales a N,
+  donde N es pedido al usuario 
 
+ENTRADAS: 
+  N - numero entero
+
+ALGORITMO:
+
+  1.- PEDIR N al usuario
+  2.- DESDE numActual = N HASTA numActual = 2 
+      2.1.- SI numActual / 2 es entero 
+          2.1.2.- SUMAR numActual a suma
+      2.2.- Restar 1 a numActual
+  3.- MOSTRAR suma al usuario
+----------------------------------
+  1.- Pedir N al usuario 
+  2.- ESTABLECER numActual = 2
+  3.- ESTABLECER suma = 0
+  4.- MIENTRAS numActual <= N
+      4.1.- SUMAR numActual a suma (suma = suma +numActual) 
+      4.2.- SUMAR 2 a numActual (numActual = numActual + 2)
+  5.- MOSTRAR suma al usuario 
+
+SALIDA:
+  suma - numero entero
